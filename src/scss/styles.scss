@@ -54,6 +54,7 @@ html {
   grid-column-end: 21;
   @include link;
   span {
+    width: max-content;
     font-size: 2vw;
     animation: scrollText 3s linear infinite forwards;
   }
@@ -100,6 +101,7 @@ html {
   overflow: hidden;
   @include link;
   span {
+    width: max-content;
     font-size: 2vw;
     animation: scrollText 3s linear infinite forwards;
   }
@@ -155,10 +157,10 @@ html {
 
 .centerKrLetter {
   position: absolute;
-  font-size: 9vh;
+  width: max-content;
+  font-size: 11vh;
   color: white;
   font-weight: 600;
-  position: absolute;
   left: 50%;
   top: 30%;
   transform: translate(-50%, -50%);
@@ -170,11 +172,9 @@ html {
   font-size: 17vh;
   color: white;
   font-weight: 600;
-  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   text-align: center;
   line-height: 90%;
 }
